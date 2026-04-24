@@ -1,0 +1,85 @@
+/* Full page styling */
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Container for buttons */
+.link-button-div-1-home {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+/* Common button style */
+.link-button-div-1-home button {
+    width: 200px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Individual button colors */
+.button-1-home {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-2-home {
+    background-color: #2196F3;
+    color: white;
+}
+
+.button-3-home {
+    background-color: #FF9800;
+    color: white;
+}
+
+.button-4-home {
+    background-color: #f44336;
+    color: white;
+}
+
+.button-5-home {
+    background-color: #f436ab;
+    color: white;
+}
+
+/* Hover effects */
+.link-button-div-1-home button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Heading */
+.heading-1-home {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Paragraph */
+.p-1-home {
+    font-size: 18px;
+    color: #d1d1d1;
+}
+
+/* Remove link underline */
+.link-1-home,
+.link-2-home,
+.link-3-home,
+.link-4-home {
+    text-decoration: none;
+}

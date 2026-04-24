@@ -1,0 +1,86 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+}
+
+/* Main container */
+.box-1-log {
+    width: 350px;
+    padding: 30px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.box-1-log h1 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-box-1-log,
+.input-box-2-log {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Focus effect */
+.input-box-1-log:focus,
+.input-box-2-log:focus {
+    box-shadow: 0 0 6px #fff;
+}
+
+/* Button container */
+.button-div-1-log {
+    margin-top: 15px;
+}
+
+/* Login button */
+.button-1-log {
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.button-1-log:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Text */
+.p-1-log {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Links */
+.p-1-log a,
+.link-1-log {
+    color: #ffd369;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.p-1-log a:hover,
+.link-1-log:hover {
+    text-decoration: underline;
+}

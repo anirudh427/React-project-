@@ -1,0 +1,133 @@
+/* Page container */
+.cart-container {
+    min-height: 100vh;
+    padding: 30px;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Title */
+.cart-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/* Empty message */
+.empty-cart {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Grid */
+.cart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* Card */
+.cart-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 18px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    overflow: hidden; /* prevent image overflow */
+}
+
+/* Hover */
+.cart-card:hover {
+    transform: translateY(-6px);
+}
+
+/* Image fix */
+.cart-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* Title */
+.cart-card h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+/* Text */
+.cart-card p {
+    margin: 5px 0;
+}
+
+/* Buttons */
+.cart-buttons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cart-buttons button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.cart-buttons button:nth-child(1) {
+    background: #4CAF50;
+    color: white;
+}
+
+.cart-buttons button:nth-child(2) {
+    background: #ff9800;
+    color: white;
+}
+
+.cart-buttons button:nth-child(3) {
+    background: #f44336;
+    color: white;
+}
+
+.cart-buttons button:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+}
+
+/* 🔥 TOTAL SECTION */
+.cart-container h3 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+/* 🔥 CHECKOUT BUTTON */
+.cart-container > button {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cart-container > button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
