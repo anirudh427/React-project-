@@ -8,4 +8,4 @@ function Protected({children}){
     return isAuth ? children : <Navigate to='/login'/>
 }
 
-export default Protected
+export default Protected;
